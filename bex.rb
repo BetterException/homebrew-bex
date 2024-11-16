@@ -9,5 +9,6 @@ class Bex < Formula
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
+    bin.install_symlink prefix/"bex"
   end
 end
