@@ -2,7 +2,7 @@ class Bex < Formula
   desc "Better Exception handling"
   homepage "https://github.com/BetterException/bex"
   url "https://github.com/BetterException/bex/archive/refs/tags/0.2.tar.gz"
-  sha256 '900733b3e9b2afb58e5b1fdb605581fd9f0d51411800739e8dd180377771ed7a'
+  sha256 'f08dfd85a25b5f2f3ce139a921a87b169a00379db807797051e6db4958d2054b'
   depends_on "cmake" => :build
   depends_on "openssl" => :build
   def install
